@@ -133,17 +133,16 @@ main .container {
 }
 
 .statuses .status {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
   border-radius: 50%;
-  overflow: hidden;
-  width: 70px;
+  overflow: auto;
+  min-width: 70px;
   height: 70px;
   background: linear-gradient(to right, red, orange);
   padding: 2px;
   margin-left: 15px;
   cursor: pointer;
+
 }
 
 .statuses .status .image {
@@ -262,7 +261,7 @@ main .container {
   height: 30px;
   background: linear-gradient(to right, red, orange);
   padding: 2px;
-  margin-left: 15px;
+  margin-right: 8px;
   cursor: pointer;
 }
 
